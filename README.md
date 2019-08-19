@@ -1,13 +1,13 @@
 # optimized-DPLL
 
-the optimizetion of DPLL 
-===
+## the optimizetion of DPLL 
+
 
 基本算法思想来源于DPLL算法，对于变元策略进行了改进。具体可以参考https://github.com/Billy1900/DPLL-Algorithm
-==
+
 
 DPLL算法思想如下：
-
+<pre>
 Status DPLL( S) {
 
 /* S为公式对应的子句集。若其满足，返回TURE；否则返回FALSE. */
@@ -32,7 +32,7 @@ if DPLL（S ∪v ）return(TURE);
 
 return DPLL(S ∪¬v);
 
-}
+}</pre>
 
 说明：优化算法相比DPLL算法 来讲，在选取变元策略上进行了优化。其余算法流程基本保持不变。
 
