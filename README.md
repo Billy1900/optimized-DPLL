@@ -1,6 +1,6 @@
 # optimized-DPLL
 
-## the optimizetion of DPLL 
+## the optimization of DPLL 
 
 
 基本算法思想来源于DPLL算法，对于变元策略进行了改进。具体可以参考https://github.com/Billy1900/DPLL-Algorithm
